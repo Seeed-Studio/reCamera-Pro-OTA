@@ -1,0 +1,11 @@
+# Firmware packages and images are published through GitHub Releases, never committed.
+/firmware/
+*.tar
+*.img
+
+# Runtime logs written next to the SocToolKit binary.
+tools/linux/SocToolKit/Log/
+
+# OS noise
+.DS_Store
+Thumbs.db
