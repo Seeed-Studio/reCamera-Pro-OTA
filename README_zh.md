@@ -215,6 +215,10 @@ firmware/
 
    ![SocToolKit 下载步骤](images/soctoolkit-download-steps.png)
 
+> **不要勾选 `userdata.img`。** 如果镜像文件夹里有这个文件，请让 `userdata` 那一行保持
+> 不勾选（如上图所示）：`userdata` 是 grow-to-end 分区，存放配置、录像和照片，写入该镜像
+> 会把这些数据覆盖掉。官方镜像包中本来也没有它。
+
 工具会把每个镜像写入对应分区，然后重启设备并提示成功。拔掉 USB，等待设备正常启动。
 
 ### 3.6 Linux 命令行替代方案

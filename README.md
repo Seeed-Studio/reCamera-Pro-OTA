@@ -244,6 +244,11 @@ Use **Tool → Chip Selection** if the dialog does not appear.
 
    ![SocToolKit download steps](images/soctoolkit-download-steps.png)
 
+> **Do not tick `userdata.img`.** If your image folder contains one, leave the `userdata`
+> row unchecked: it is the grow-to-end partition holding your settings, recordings and
+> photos, and writing that image overwrites them. The official image package does not
+> include it.
+
 The tool writes every image to its partition, restarts the device and shows a success
 message. Remove USB and let the camera boot.
 
