@@ -242,6 +242,8 @@ Use **Tool → Chip Selection** if the dialog does not appear.
    image list from that folder.
 3. Make sure the images are selected (including `DownloadBin`), then click **Download**.
 
+   ![SocToolKit download steps](images/soctoolkit-download-steps.png)
+
 The tool writes every image to its partition, restarts the device and shows a success
 message. Remove USB and let the camera boot.
 

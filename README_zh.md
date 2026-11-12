@@ -213,6 +213,8 @@ firmware/
 2. 点击 **Search Path…**，选择解压出的镜像文件夹，工具会自动列出镜像。
 3. 确认镜像已被勾选（包括 `DownloadBin`），点击 **Download**。
 
+   ![SocToolKit 下载步骤](images/soctoolkit-download-steps.png)
+
 工具会把每个镜像写入对应分区，然后重启设备并提示成功。拔掉 USB，等待设备正常启动。
 
 ### 3.6 Linux 命令行替代方案
